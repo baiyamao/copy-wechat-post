@@ -1,12 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "Copy WeChat Post",
-  "description": "复制微信公众号文章正文 section，并粘贴到公众号后台编辑器。",
-  "version": "0.1.0",
+  "name": "公众号正文搬运助手",
+  "short_name": "正文搬运",
+  "description": "提取公众号文章正文源码，并一键替换公众号后台编辑器正文。",
+  "version": "0.1.1",
   "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["https://mp.weixin.qq.com/*"],
   "action": {
-    "default_title": "Copy WeChat Post",
-    "default_popup": "popup.html"
+    "default_title": "公众号正文搬运助手",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
   }
 }
