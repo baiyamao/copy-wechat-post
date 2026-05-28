@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Copy WeChat Post",
+  "description": "复制微信公众号文章正文 section，并粘贴到公众号后台编辑器。",
+  "version": "0.1.0",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://mp.weixin.qq.com/*"],
+  "action": {
+    "default_title": "Copy WeChat Post",
+    "default_popup": "popup.html"
+  }
+}
